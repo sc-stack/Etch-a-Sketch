@@ -1,0 +1,1 @@
+A simple sketchpad project with DOM manipulation and event handling. 
