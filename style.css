@@ -2,3 +2,14 @@ h1{
     position: fixed;
     right: 600px;
 }
+#container{
+    display: grid;
+    grid-template-columns: repeat(16, 1em);
+    grid-template-rows: repeat(16, 1em);
+}
+.cell{
+    padding: 3rem;
+    text-align: center;
+    border-top: 1px solid #dfdfdf;
+    border-left: 1px solid black;
+}
