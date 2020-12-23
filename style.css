@@ -1,15 +1,19 @@
 h1{
     position: fixed;
-    right: 600px;
+    right: 440px;
 }
 #container{
     display: grid;
     grid-template-columns: repeat(16, 1em);
     grid-template-rows: repeat(16, 1em);
+    position:fixed;
+    top: 100px;
+    right: 400px;
 }
 .cell{
-    padding: 3rem;
     text-align: center;
-    border-top: 1px solid #dfdfdf;
+    border-top: 1px solid black;
     border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
 }
