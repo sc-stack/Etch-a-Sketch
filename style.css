@@ -1,6 +1,6 @@
 h1{
     position: fixed;
-    right: 50vw;
+    right: 40vw;
 }
 #container{
     height: 250px;
@@ -36,6 +36,14 @@ h1{
     right: 65vw;
     top:20vh;
     background-color:red;
+    color: white;
+    border-radius: 50%;
+}
+#rainbow{
+    position: fixed;
+    right: 80vw;
+    top:20vh;
+    background-color:mediumaquamarine;
     color: white;
     border-radius: 50%;
 }

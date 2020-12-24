@@ -24,6 +24,7 @@ button.addEventListener('click', () => {
     while(container.firstElementChild){
         container.removeChild(container.lastElementChild);
     }
+    color = "black";
     makeGrid();
 });
 //changes the color 
@@ -35,3 +36,5 @@ const red = document.querySelector(`#red`);
 red.addEventListener('click', () => {
     color = "red";
 });
+//needs optimization to show rainbow colors
+
