@@ -3,20 +3,25 @@ h1{
     right: 440px;
 }
 #container{
+    height: 250px;
+    width: 250px;
     display: grid;
     position:fixed;
-    top: 100px;
-    right: 400px;
+    top: 17vw;
+    right: 37vw;
 }
 .cell{
     text-align: center;
-    border-top: 1px solid black;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: 1fr solid gray;
+    border-left: 1fr solid gray;
+    border-right: 1fr solid gray;
+    border-bottom: 1fr solid gray;
+    border: 1px solid gray;
 }
 #btn{
     position: fixed;
-    right: 470px;
+    right: 45vw;
     top: 70px;
+    background-color: light blue;
+    color: white;
 }
