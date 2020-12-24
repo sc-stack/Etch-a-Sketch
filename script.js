@@ -7,8 +7,14 @@ for(let i = 0; i< (squares*squares); i++){
     const div = document.createElement(`div`);
     div.classList.add("cell");
     container.setAttribute('style', `grid-template-columns : repeat(${squares}, 1fr); grid-template-rows : repeat(${squares}, 1fr)`);
+    let opac = .1;
+    //opacity added so that it takes 10 passes through the cell to fully darken the intended color
     div.addEventListener('mouseover', function(e){
         e.target.style.backgroundColor = color;
+        e.target.style.opacity = opac;
+        if(opac < 1) {
+           opac += .1;
+        }
     });
     container.appendChild(div);
     }

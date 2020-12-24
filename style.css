@@ -1,6 +1,16 @@
 h1{
     position: fixed;
-    right: 40vw;
+    right: 35vw;
+    color: navy;
+    text-shadow: 0 .5px 0 #ccc, 0 1px 0 #ccc, 
+    0 1.5px 0 #ccc, 0 2px 0 #ccc, 
+    0 2.5px 0 #ccc, 0 3px 0 #ccc, 
+    0 3.5px 0 #ccc, 0 4px 0 #ccc, 
+    0 4.5px 0 #ccc, 0 5px 0 #ccc, 
+    0 5.5px 0 #ccc, 0 6px 0 #ccc, 
+    0 10px 30px rgba(0, 0, 0, 0.5); 
+    font: arial; 
+    font-size: 50px;
 }
 #container{
     height: 250px;
@@ -10,6 +20,7 @@ h1{
     top: 17vw;
     right: 37vw;
     border: 1px solid black;
+    background-color: white;
 }
 .cell{
     text-align: center;
@@ -19,7 +30,7 @@ h1{
     right: 45vw;
     top: 20vh;
     background-color:fold;
-    color: white;
+    color: black;
     border-radius: 50%;
     border: 1px solid blue;
 }
@@ -39,11 +50,6 @@ h1{
     color: white;
     border-radius: 50%;
 }
-#rainbow{
-    position: fixed;
-    right: 80vw;
-    top:20vh;
-    background-color:mediumaquamarine;
-    color: white;
-    border-radius: 50%;
+.body{
+    background-color: orange;
 }
