@@ -9,19 +9,33 @@ h1{
     position:fixed;
     top: 17vw;
     right: 37vw;
+    border: 1px solid black;
 }
 .cell{
     text-align: center;
-    border-top: 1fr solid gray;
-    border-left: 1fr solid gray;
-    border-right: 1fr solid gray;
-    border-bottom: 1fr solid gray;
-    border: 1px solid gray;
 }
 #btn{
     position: fixed;
     right: 45vw;
-    top: 70px;
-    background-color: light blue;
+    top: 20vh;
+    background-color:fold;
     color: white;
+    border-radius: 50%;
+    border: 1px solid blue;
+}
+#blue{
+    position: fixed;
+    right: 30vw;
+    top:20vh;
+    background-color:blue;
+    color: white;
+    border-radius: 50%;
+}
+#red{
+    position: fixed;
+    right: 65vw;
+    top:20vh;
+    background-color:red;
+    color: white;
+    border-radius: 50%;
 }
