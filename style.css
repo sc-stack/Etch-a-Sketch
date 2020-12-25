@@ -1,7 +1,12 @@
+:root {
+    --background: #c0c0c0;
+    --backgroundShadow: -6px 6px 15px rgba(0,0,0,0.5);
+    --textshadow: 6px -6px 15px rgba(255,255,255,0.8);
+  }
 h1{
-    position: fixed;
+    position: absolute;
+    color: red;
     right: 35vw;
-    color: navy;
     text-shadow: 0 .5px 0 #ccc, 0 1px 0 #ccc, 
     0 1.5px 0 #ccc, 0 2px 0 #ccc, 
     0 2.5px 0 #ccc, 0 3px 0 #ccc, 
@@ -13,43 +18,52 @@ h1{
     font-size: 50px;
 }
 #container{
-    height: 250px;
-    width: 250px;
+    height: 350px;
+    width: 350px;
     display: grid;
     position:fixed;
-    top: 17vw;
-    right: 37vw;
-    border: 1px solid black;
+    top: 30vh;
+    right: 31.5vw;
+    border: 1px solid red;
     background-color: white;
+    background-blend-mode: lighten;
 }
 .cell{
     text-align: center;
 }
 #btn{
     position: fixed;
-    right: 45vw;
+    right: 10vw;
     top: 20vh;
     background-color:fold;
     color: black;
-    border-radius: 50%;
     border: 1px solid blue;
 }
 #blue{
     position: fixed;
-    right: 30vw;
-    top:20vh;
+    right: 10vw;
+    top:30vh;
     background-color:blue;
     color: white;
-    border-radius: 50%;
 }
 #red{
     position: fixed;
-    right: 65vw;
-    top:20vh;
+    right: 10vw;
+    top:40vh;
     background-color:red;
     color: white;
-    border-radius: 50%;
 }
 .body{
-    background-color: orange;
+    background-color: green;
+}
+
+.text{
+    color: var(--background);
+    font-size: 20em;
+    font-weight: bold;
+    position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-shadow: var(--backgroundShadow), 
+               var(--textshadow);
 }
